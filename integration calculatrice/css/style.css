@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0 0 40px 0;
+    position:relative;
+    font-weight:200;
+    font-family:'Lato';
+    min-height:98.7%;
+  }
+  
+  h1 {
+    font-size:22px;
+    color:rgb(14, 10, 10);
+  }
+  
+  #calculatrice {
+    width:266px;
+    height:453px;
+    background:#202020;
+    margin:1% auto 1% auto;
+    border: 1px solid black;
+  }
+  
+  #display {
+    background:#202020;
+    width:262px;
+    height:25%;
+    margin:0px auto 0 auto;
+    text-align:right;
+    font-size: 50px;
+    color:white;
+    position:relative;
+    padding-bottom:0px;
+  }
+  
+  #display span {
+    position:absolute;
+    bottom:0px;
+    right:10px;
+  }
+  
+  #name {
+    margin:5% auto 1% auto;
+    text-align:center;
+    color:black;
+  }
+  
+  .button {
+    height:67.5px;
+    width:65px;
+    margin:0px;
+    display:inline;
+    float:left;
+    padding-top:0;
+    border-radius: 50px;
+    border-style:solid solid none none;
+    border-width:thin;
+    border-color:rgb(120, 120, 120);
+    background-color:#2f2f35;
+    font-size:30px;
+    text-align:center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    
+  }
+  
+  .button:focus, #home:focus {
+    outline:0;
+  }
+  
+  .button:active, #home:active {background-color:rgb(127, 127, 131);}
+  
+  .button:hover, #home:hover {cursor:default;}
+  
+  .btnO {
+    background-color:#FF8C2D;
+    color: white;
+  }
+  
+  .btnO:active {
+    background-color:#d67526;
+  }
+  
+  .btnO:focus {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  .btnEquals:focus {
+    border-style:solid;
+    border-width:.01cm;
+    border-color:rgb(102, 102, 102);
+  }
+  
+  .btnDG {
+    background-color:rgb(203, 203, 207);
+  }
+  
+  .btnDG:active {
+    background-color:#1c1c20;
+  }
+  
+  .btnG {
+      color: white;
+  }
+
+  footer {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:20px;
+  }
